@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">AndroidLoginButtonExample</string>
+    <string name="app_name">沙雕的包名</string>
     <string name="title_activity_main1">MainActivity</string>
     <string name="action_settings">Settings</string>
     <string name="section_format">Hello World from section: %1$d</string>

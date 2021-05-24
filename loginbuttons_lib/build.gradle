@@ -7,7 +7,7 @@ android {
     buildToolsVersion "25.0.0"
 
     defaultConfig {
-        minSdkVersion 15
+        minSdkVersion 21
         targetSdkVersion 25
         versionCode 1
         versionName "1.0"
@@ -25,9 +25,10 @@ android {
 }
 
 dependencies {
-    compile fileTree(include: ['*.jar'], dir: 'libs')
-    testCompile 'junit:junit:4.12'
-    compile 'com.android.support:appcompat-v7:25.0.0'
-    compile files('libs/gradle-bintray-plugin-1.2-sources.jar')
+    implementation fileTree(include: ['*.jar'], dir: 'libs')
+//    testCompile 'junit:junit:4.12'
+//    compile 'com.android.support:appcompat-v7:25.0.0'
+//    compile files('libs/gradle-bintray-plugin-1.2-sources.jar')
+    implementation 'androidx.appcompat:appcompat:1.2.0'
 }
 
